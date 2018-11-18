@@ -169,5 +169,176 @@
       "Duration": "1h 27m",
       "Genre": "Adventure, family, action, comedy",
       "Type": "All, New"
+    },
+    {
+      "Title": "Venom",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=u9Mv98Gr5pY",
+      "Year": "2018",
+      "Duration": "1h 52m",
+      "Genre": "Science fiction, action",
+      "Type": "All, Coming soon"
+    },
+    {
+      "Title": "A Star Is Born",
+      "ImageURL": "https://image.tmdb.org/t/p/original/afYn8yJngkM7fS7zEtURWbgvccD.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=nSbzyEJ8X9E",
+      "Year": "2018",
+      "Duration": "2h 15m",
+      "Genre": "Drama, music, romance",
+      "Type": "All"
+    },
+    {
+      "Title": "The predatorr",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/wMq9kQXTeQCHUZOG4fAe5cAxyUA.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=WaG1KZqrLvM",
+      "Year": "2018",
+      "Duration": "1h 47m",
+      "Genre": "Horror, Science fiction, action, thriller",
+      "Type": "All, New"
+    },
+    {
+      "Title": "Ant-Man and the Wasp",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/rv1AWImgx386ULjcf62VYaW8zSt.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=8_rTIAOohas",
+      "Year": "2018",
+      "Duration": "1h 59m",
+      "Genre": "Action, Adventure, science fiction",
+      "Type": "All"
+    },
+    {
+      "Title": "The Seven Deadly Sins: Prisoners of the Sky",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/r6pPUVUKU5eIpYj4oEzidk5ZibB.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=YsrQnv_lGkI",
+      "Year": "2018",
+      "Duration": "1h 46m",
+      "Genre": "Action, adventue, fantasy, animation",
+      "Type": "All, Coming soon"
+    },
+    {
+      "Title": "Avengers: Infinity War",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=6ZfuNTqbHE8",
+      "Year": "2018",
+      "Duration": "2h 29m",
+      "Genre": "Adventure, science fiction, action, fantasy",
+      "Type": "All"
+    },
+    {
+      "Title": "Johnny English Strikes Again",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/tCBxnZwLiY1BOKw3tH6AxHZdqPh.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=-Qv6p6pTz5I",
+      "Year": "2018",
+      "Duration": "1h 27m",
+      "Genre": "Adventure, family, action, comedy",
+      "Type": "All, New"
+    },
+    {
+      "Title": "The Nun",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/sFC1ElvoKGdHJIWRpNB3xWJ9lJA.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=pzD9zGcUNrw",
+      "Year": "2018",
+      "Duration": "1h 36m",
+      "Genre": "Horror, mystery, thriller",
+      "Type": "All"
+    },
+    {
+      "Title": "The Spy Who Dumped Me",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/2lIr27lBdxCpzYDl6WUHzzD6l6H.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=CXkUaaVrB_s",
+      "Year": "2018",
+      "Duration": "1h 57m",
+      "Genre": "Action, comedy",
+      "Type": "All"
+    },
+    {
+      "Title": "Goosebumps 2: Haunted Halloween",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/8bcpki9GfXdXj9esFpPtlate8v0.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=nQeOzfm-lps",
+      "Year": "2018",
+      "Duration": "1h 30m",
+      "Genre": "Adventure, comedy, fantasy, horror, family",
+      "Type": "All, New"
+    },
+    {
+      "Title": "Black panther",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=xjDjIWPwcPU",
+      "Year": "2018",
+      "Duration": "2h 14m",
+      "Genre": "Action, adventure, fantasy, science fiction",
+      "Type": "All"
+    },
+    {
+      "Title": "Aan Devathai",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/hNT5wBvStUrnBBGVAMkVNVp87LH.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=Tlx2FsudsEY",
+      "Year": "2018",
+      "Duration": "2h 2m",
+      "Genre": "Drama, family",
+      "Type": "All, New"
+    },
+    {
+      "Title": "The Meg",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/eyWICPcxOuTcDDDbTMOZawoOn8d.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=udm5jUA-2bs",
+      "Year": "2018",
+      "Duration": "1h 53m",
+      "Genre": "Action, Science fiction, thriller",
+      "Type": "All, Coming Soon"
+    },
+    {
+      "Title": "Skyscraper",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/5LYSsOPzuP13201qSzMjNxi8FxN.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=t9QePUT-Yt8",
+      "Year": "2018",
+      "Duration": "1h 42m",
+      "Genre": "Action",
+      "Type": "All"
+    },
+    {
+      "Title": "Halloween",
+      "ImageURL": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lNkDYKmrVem1J0aAfCnQlJOCKnT.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=ek1ePFp-nBI",
+      "Year": "2018",
+      "Duration": "1h 46m",
+      "Genre": "Horror",
+      "Type": "All"
+    },
+    {
+      "Title": "Jurassic World: Fallen Kingdom",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/c9XxwwhPHdaImA2f1WEfEsbhaFB.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=1FJD7jZqZEk",
+      "Year": "2018",
+      "Duration": "2h 9m",
+      "Genre": "Action, adventure, science fiction, horror",
+      "Type": "All, Coming soon"
+    },
+    {
+      "Title": "Black panther",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=xjDjIWPwcPU",
+      "Year": "2018",
+      "Duration": "2h 14m",
+      "Genre": "Action, adventure, fantasy, science fiction",
+      "Type": "All"
+    },
+    {
+      "Title": "The Meg",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/eyWICPcxOuTcDDDbTMOZawoOn8d.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=udm5jUA-2bs",
+      "Year": "2018",
+      "Duration": "1h 53m",
+      "Genre": "Action, Science fiction, thriller",
+      "Type": "All, Coming Soon"
+    },
+    {
+      "Title": "Johnny English Strikes Again",
+      "ImageURL": "https://image.tmdb.org/t/p/w1280/tCBxnZwLiY1BOKw3tH6AxHZdqPh.jpg",
+      "TrailerURL": "https://www.youtube.com/watch?v=-Qv6p6pTz5I",
+      "Year": "2018",
+      "Duration": "1h 27m",
+      "Genre": "Adventure, family, action, comedy",
+      "Type": "All, New"
     }
   ]
