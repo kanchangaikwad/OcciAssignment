@@ -1,0 +1,37 @@
+
+<div class="MovieBank">
+    <div class="row">
+
+        <div *ngIf="movies">
+            <div *ngFor='let movie of movies | paginate: { itemsPerPage: 8, currentPage: p }'>
+                <div class="col-md-3 col-sm-6">
+                  <app-movie (ShowTrailer)="ShowTrailer($event)" [movie]="movie"></app-movie>
+                </div>
+              </div>
+       </div>  
+    </div>
+
+    <div *ngIf="movies?.length==0">       
+        <div style="color:white">
+          <h3>No movies found</h3>
+        </div>
+     </div>
+
+     <div class="row" style="margin-top: 50px;">        
+        <div class="col-md-4"></div>
+        <div class="col-md-4" style="color: white">            
+            <pagination-controls (pageChange)="p = $event"  
+                                  previousLabel="<" nextLabel=">"
+                                  autoHide="true" responsive="true"> 
+            </pagination-controls>
+        </div>
+        <div class="col-md-4"></div>   
+    </div>
+   
+</div>
+
+<div *ngIf="TrailerMovie" class="row">
+  <div class="col-md-12">
+    <app-moviedetails [TrailerMovie]="TrailerMovie"></app-moviedetails>
+  </div>
+</div>

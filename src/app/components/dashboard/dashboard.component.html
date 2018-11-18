@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row" style="height: 100%;">      
+    <div class="col-md-3 Col1">
+      <div style="margin-top: 20px">
+        <img  src="../assets/images/logo.png" style="width: 50px; margin: 5px 5px 5px 45px;" />
+      </div>    
+      <div class="CategoryDiv">
+        <app-category (searchCategory)="searchMovieByCategory($event)"></app-category>
+        <app-type (searchType)="searchMovieByType($event)"></app-type>      
+      </div>
+        
+    </div>
+  
+    <div class=" col-md-9 Col2">
+      <div class="row" style="margin-top: 20px">
+        <div class="col-md-12">                 
+          <div class="col-md-12">
+            <div style="position: absolute;top: 7px;"><mat-icon matPrefix>search</mat-icon>
+           </div>
+         
+        <div style="margin-left:3px" class="">
+           <input type="text" (input)="searchMovieByTitle($event.target.value)" class="form-control" 
+          placeholder="Search for your fevorite movie">
+        </div>
+          </div>          
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-md-12" style="margin-top: 20px">
+          <div *ngIf="moveiList">
+            <app-movie-bank [movies]="moveiList"></app-movie-bank>
+          </div>         
+        </div>
+      </div>        
+    </div>
+  </div>  
+</div>

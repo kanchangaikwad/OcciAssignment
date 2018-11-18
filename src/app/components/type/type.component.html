@@ -1,0 +1,20 @@
+
+<div>
+  <div style="margin-left: 40px">
+<span style="color: grey">
+    <h5>  TYPE</h5>
+</span>
+</div> 
+
+<div style="float: left;">
+
+  <ul style="list-style: none;">
+      <li *ngFor="let type of types">
+        <a href="#" style="text-decoration: none" (click)="CallSearchByType(type)">
+            <span style="color: white;font-size: 11px; font-family: Arial, Helvetica, sans-serif">  {{ type }}  </span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</div>

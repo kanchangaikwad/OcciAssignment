@@ -1,0 +1,20 @@
+<div>
+
+    <div style="margin-left: 40px;">
+        <span style="color: grey">
+            <h5> CATEGORIES</h5>
+        </span>
+      </div>
+      <div>
+          <ul style="list-style: none;">
+              <li *ngFor="let category of categories">
+                  <a href="#" style="text-decoration: none" (click)="CallSearchByCategory(category)">
+                    <span style="color: white; font-size: 11px; font-family: Arial, Helvetica, sans-serif">{{ category }} </span>
+                  </a> 
+              </li>
+            </ul>
+    </div>
+</div>
+
+
+

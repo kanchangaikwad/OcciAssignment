@@ -1,0 +1,39 @@
+
+<div class="container">
+<div class="movieThumb shadow"  (click)="openModal(template)">
+  <div class="row">
+      <div class="col-md-2">
+        <div class="center">           
+            <span class="badge spanTag" *ngIf="movieTag" > {{ movieTag }}  </span>   
+            <img class="img-fluid img-responsive"  [src]="movie.ImageURL"  [style.height.px]="200" 
+            [style.width.px]="150"  onError="this.src='../../assets/unknown.png';"  />           
+        </div>      
+       
+    </div>
+  </div>
+  <div class="row" style="width: 180px">    
+     <div class="col-md-10" style="height: 20px;">
+     <span style="color: white;text-align: center;font-size: 11px; font-family: Arial, Helvetica, sans-serif">      
+      {{ movie. Title }} ({{movie. Year}})</span>
+    </div>
+  </div>
+</div>
+
+</div>
+  
+<ng-template #template> 
+  <div style="background-color: rgb(31, 45, 59); width: 630px; height:380px;">
+    <div class="modal-header" style="color: white;margin:0px 0px 0px 25px">
+           <h5 class="modal-title pull-left">{{ movie.Title  }} ({{(movie.Year)}})</h5>
+      <button type="button" style="color: white;margin-right:10px;" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">       
+      <iframe style="height:280px;width:580px; border: none;margin: 5px 5px 2px 10px;" 
+       [src]="safeSrc">
+      </iframe>
+    </div>
+  </div> 
+</ng-template>
+
